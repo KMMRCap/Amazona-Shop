@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-toolbar {
+  justify-content: space-between;
+}
+
+.searchSection{
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .searchSection {
+    display: block !important;
+  }
+}
